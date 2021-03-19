@@ -1,0 +1,20 @@
+@use "variables";
+
+.hero{
+  background: url("./images/eye.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: variables.$main-color;
+  font-size: 5rem;
+}
